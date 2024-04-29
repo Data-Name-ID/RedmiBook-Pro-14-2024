@@ -89,7 +89,7 @@
 >
 > — участник форума 4pda
 
-1. [Скачайте](files/Profile%20by%20Notebookcheck.icm) профиль от Notebookcheck
+1. [Скачайте](https://raw.githubusercontent.com/Data-Name-ID/RedmiBook-Pro-14-2024/main/files/Profile%20by%20Notebookcheck.icm) профиль от Notebookcheck
 2. В поиске Windows найдите `Управление цветом`
 3. В поле `Устройство` выберете `Экран 1`
 4. Ниже, нажмите `Добавить` -> `Обзор` -> выберете скаченный профиль
