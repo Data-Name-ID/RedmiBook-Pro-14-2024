@@ -88,7 +88,7 @@
 
 1. Вы можете установить все драйверы с помощью **Центра обновлений Windows**
 2. Или импортировать драйверы с помощью `pnputil`
-   - Для этого [скачайте](https://drive.google.com/drive/folders/114d9uIPEyFlJO48S38-url-4raS7jj68) и распакуйте архив драйверов
+   - Для этого [скачайте](https://drive.google.com/drive/folders/1mNBsWjZ1jstHsc_fp29fs57bh0BqbIxR) и распакуйте архив драйверов
    - Импортируйте драйверы: `pnputil /add-driver C:\drivers\*.inf /subdirs /install`
 
 ### Установка Linux
@@ -121,7 +121,7 @@
 ![Установка китайского языка 2](files/Установка%20китайского%20языка%202.png)
 
 - После выхода из системы заново входим: видим, что языком системы стал китайский - значит всё ок
-- [Скачиваем](https://drive.google.com/drive/folders/114d9uIPEyFlJO48S38-url-4raS7jj68) и устанавливаем PC Manager (поставить галочку и далее нажимать на синие кнопки)
+- [Скачиваем](https://drive.google.com/drive/folders/1mNBsWjZ1jstHsc_fp29fs57bh0BqbIxR) и устанавливаем PC Manager (поставить галочку и далее нажимать на синие кнопки)
 - Поздравляю, вы установили Xiaomi PC Manager!
 - В настройках системы можете переключить язык обратно на русский
 
