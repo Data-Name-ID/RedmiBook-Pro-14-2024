@@ -1,16 +1,18 @@
-# Шпаргалка и FAQ по RedmiBook Pro 14/16 2024 на Intel Ultra 125H/155H
+# Шпаргалка и FAQ по Xiaomi Redmibook Pro 14/16 2024 на Intel Ultra 125H/155H
 
-- [Шпаргалка и FAQ по RedmiBook Pro 14/16 2024 на Intel Ultra 125H/155H](#шпаргалка-и-faq-по-redmibook-pro-1416-2024-на-intel-ultra-125h155h)
+- [Шпаргалка и FAQ по Xiaomi Redmibook Pro 14/16 2024 на Intel Ultra 125H/155H](#шпаргалка-и-faq-по-xiaomi-redmibook-pro-1416-2024-на-intel-ultra-125h155h)
   - [Полезные ссылки](#полезные-ссылки)
     - [Главное](#главное)
     - [Ревью](#ревью)
     - [Где купить](#где-купить)
       - [Ozon](#ozon)
+    - [Разное](#разное)
   - [FaQ](#faq)
   - [Проверка на оригинальность](#проверка-на-оригинальность)
   - [Установка](#установка)
     - [Перед переустановкой Windows](#перед-переустановкой-windows)
     - [Установка Windows](#установка-windows)
+      - [Драйверы](#драйверы)
     - [Установка Office](#установка-office)
     - [Установка Xiaomi PC Manager](#установка-xiaomi-pc-manager)
     - [Горячие клавиши](#горячие-клавиши)
@@ -40,6 +42,10 @@
 - [Best choice](https://www.ozon.ru/seller/best-choice-244361/elektronika-15500/?miniapp=seller_244361) - [Ссылка на ноутбук](https://www.ozon.ru/product/xiaomi-16-noutbuk-redmi-redmi-book-pro16-2024-intel-core-ultra-5-125h-3-6-ggts-ram-32-gb-ssd-1024-1435692957/?asb=nSYjLnCEZr%252BDgDEO9AuM%252BRd%252Fqcp8Y%252Bdzp8pnK0bYYX0%253D), присылает не вскрытый, с пломбами
 - [Технофаны](https://www.ozon.ru/seller/tehnofany-1285368/elektronika-15500/?miniapp=seller_1285368) - [Ссылка на ноутбук](https://www.ozon.ru/product/xiaomi-redmi-book-pro-14-2024-intel-core-ultra-5-noutbuk-125h-2-8k-14-displey-c-besplatnyy-podarok-1432468957/?asb=F%252F8L6mC4W%252B%252B8QnyKWhHkfm26KVstG31xoJvldS9Hcfw%253D), присылает вскрытый для переустановки Windows на русскую
 - [Hizon](https://www.ozon.ru/seller/hizon-878210/ofisnaya-tehnika-15770/?miniapp=seller_878210) - Временно нет в магазине
+
+### Разное
+
+Страница с ПО на сайте Xiaomi [14 дюймов](https://www.mi.com/service/notebook/drivers/N56)/[16 дюймов](https://www.mi.com/service/notebook/drivers/N57)
 
 ## FaQ
 
@@ -74,8 +80,14 @@
 Вход в BIOS - `F2` Boot меню - `F12`
 При установке Windows удалите все разделы на диске.
 
-Все драйвера будут установлены из Центра обновлений.
-❗НО будьте готовы, что до этого тачпад и WiFi работать не будут: используйте внешнюю мышь и телефон в качестве модема через провод❗
+❗Будьте готовы, что до установки драйверов тачпад и WiFi работать не будут: используйте внешнюю мышь и телефон в качестве модема через провод❗
+
+#### Драйверы
+
+1. Вы можете установить все драйверы с помощью **Центра обновлений Windows**
+2. Или импортировать драйверы с помощью `pnputil`
+   - Для этого [скачайте](https://drive.google.com/drive/folders/114d9uIPEyFlJO48S38-url-4raS7jj68) и распакуйте архив драйверов
+   - Импортируйте драйверы: `pnputil /add-driver C:\drivers\*.inf /subdirs /install`
 
 ### Установка Office
 
@@ -91,7 +103,7 @@
 ![Установка китайского языка 2](files/Установка%20китайского%20языка%202.png)
 
 - После выхода из системы заново входим: видим, что языком системы стал китайский - значит всё ок
-- [Скачиваем](https://t.me/redmiclub1/444) и устанавливаем PC Manager (поставить галочку и далее нажимать на синие кнопки)
+- [Скачиваем](https://drive.google.com/drive/folders/114d9uIPEyFlJO48S38-url-4raS7jj68) и устанавливаем PC Manager (поставить галочку и далее нажимать на синие кнопки)
 - Поздравляю, вы установили Xiaomi PC Manager!
 - В настройках системы можете переключить язык обратно на русский
 
