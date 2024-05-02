@@ -101,7 +101,7 @@
   options snd-hda-intel dmic_detect=0
   ```
 
-- Опционально добавить в `/etc/modprobe.d/i915.conf` для тонкой настройки дисплея (fastboot=1 - экспериментальная функция)
+- Опционально добавить в `/etc/modprobe.d/i915.conf` для тонкой настройки iGPU (fastboot=1 - экспериментальная функция)
 
   ```bash
   options i915 enable_fbc=1 enable_guc=3 disable_power_well=0 fastboot=1
