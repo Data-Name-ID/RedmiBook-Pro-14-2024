@@ -13,6 +13,7 @@
     - [Перед переустановкой Windows](#перед-переустановкой-windows)
     - [Установка Windows](#установка-windows)
       - [Драйверы](#драйверы)
+    - [Установка Linux](#установка-linux)
     - [Установка Office](#установка-office)
     - [Установка Xiaomi PC Manager](#установка-xiaomi-pc-manager)
     - [Горячие клавиши](#горячие-клавиши)
@@ -88,6 +89,22 @@
 2. Или импортировать драйверы с помощью `pnputil`
    - Для этого [скачайте](https://drive.google.com/drive/folders/114d9uIPEyFlJO48S38-url-4raS7jj68) и распакуйте архив драйверов
    - Импортируйте драйверы: `pnputil /add-driver C:\drivers\*.inf /subdirs /install`
+
+### Установка Linux
+
+Используйте дистрибутивы с последней версией ядра.
+
+- Для того, что бы заработал звук, надо добавить в `/etc/modprobe.d/sound-fix.conf`
+
+  ```bash
+  options snd-hda-intel dmic_detect=0
+  ```
+
+- Опционально добавить в `/etc/modprobe.d/i915.conf` для тонкой настройки дисплея (fastboot=1 - экспериментальная функция)
+
+  ```bash
+  options i915 enable_fbc=1 enable_guc=3 disable_power_well=0 fastboot=1
+  ```
 
 ### Установка Office
 
