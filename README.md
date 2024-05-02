@@ -2,6 +2,11 @@
 
 - [Шпаргалка и FAQ по RedmiBook Pro 14/16 2024 на Intel Ultra 125H/155H](#шпаргалка-и-faq-по-redmibook-pro-1416-2024-на-intel-ultra-125h155h)
   - [Полезные ссылки](#полезные-ссылки)
+    - [Главное](#главное)
+    - [Ревью](#ревью)
+    - [Где купить](#где-купить)
+      - [Ozon](#ozon)
+  - [FaQ](#faq)
   - [Проверка на оригинальность](#проверка-на-оригинальность)
   - [Установка](#установка)
     - [Перед переустановкой Windows](#перед-переустановкой-windows)
@@ -19,9 +24,30 @@
 
 ## Полезные ссылки
 
+### Главное
+
 - [Telegram чат](https://t.me/redmiclub1) владельцев RedmiBook Pro 14/16
 - [Топик на 4pda](https://4pda.to/forum/index.php?showtopic=1085675)
-- [Обзор от Notebookcheck](https://www.notebookcheck-ru.com/Obzor-Xiaomi-RedmiBook-Pro-16-2024-Luchshii-noutbuk-na-Meteor-Lake-s-khoroshei-avtonomnostju.830060.0.html)
+
+### Ревью
+
+- [Notebookcheck](https://www.notebookcheck-ru.com/Obzor-Xiaomi-RedmiBook-Pro-16-2024-Luchshii-noutbuk-na-Meteor-Lake-s-khoroshei-avtonomnostju.830060.0.html)
+
+### Где купить
+
+#### Ozon
+
+- [Best choice](https://www.ozon.ru/seller/best-choice-244361/elektronika-15500/?miniapp=seller_244361) - [Ссылка на ноутбук](https://www.ozon.ru/product/xiaomi-16-noutbuk-redmi-redmi-book-pro16-2024-intel-core-ultra-5-125h-3-6-ggts-ram-32-gb-ssd-1024-1435692957/?asb=nSYjLnCEZr%252BDgDEO9AuM%252BRd%252Fqcp8Y%252Bdzp8pnK0bYYX0%253D), присылает не вскрытый, с пломбами
+- [Технофаны](https://www.ozon.ru/seller/tehnofany-1285368/elektronika-15500/?miniapp=seller_1285368) - [Ссылка на ноутбук](https://www.ozon.ru/product/xiaomi-redmi-book-pro-14-2024-intel-core-ultra-5-noutbuk-125h-2-8k-14-displey-c-besplatnyy-podarok-1432468957/?asb=F%252F8L6mC4W%252B%252B8QnyKWhHkfm26KVstG31xoJvldS9Hcfw%253D), присылает вскрытый для переустановки Windows на русскую
+- [Hizon](https://www.ozon.ru/seller/hizon-878210/ofisnaya-tehnika-15770/?miniapp=seller_878210) - Временно нет в магазине
+
+## FaQ
+
+Экран матовый или глянцевый?
+> Матовый
+
+Тачпад стеклянный или пластиковый?
+> Стеклянный
 
 ## Проверка на оригинальность
 
@@ -108,11 +134,11 @@
 
 #### От Xiaomi
 
-Цвета будут не такими жёлтыми, как по умолчанию или как у профиля Notebookcheck
-
 ![Настройка цветового профиля](files/Настройка%20цветового%20профиля.png)
 
 #### От Notebookcheck
+
+❗**Только для 16 дюймовой версии**
 
 > Калиброванный профиль от Notebookcheck - просто великолепие. Один в один с моим AMOLED калиброванным iPhone
 >
@@ -133,7 +159,7 @@
 
 ### Глубина цветности
 
-Настройка наибольшей глубины цветности в **Центре управления графикой Intel** (`2^30` цветов вместо `2^24` по умолчанию):
+Настройка наибольшей глубины цветности в [Центре управления графикой Intel](https://apps.microsoft.com/detail/9plfnlnt3g5g?hl=ru-ru) (`2^30` цветов вместо `2^24` по умолчанию):
 
 ![Установка глубины цветности](files/Установка%20глубины%20цветности.png)
 
