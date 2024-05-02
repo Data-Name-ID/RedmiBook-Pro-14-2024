@@ -45,7 +45,7 @@
 
 ### Разное
 
-Страница с ПО на сайте Xiaomi [14 дюймов](https://www.mi.com/service/notebook/drivers/N56)/[16 дюймов](https://www.mi.com/service/notebook/drivers/N57)
+Страница с ПО на сайте Xiaomi [14 дюймов](https://www.mi.com/service/notebook/drivers/N56)/[16 дюймов](https://www.mi.com/service/notebook/drivers/N57) - Чтобы открыть нужно использовать VPN или [Croxy Proxy](https://www.croxyproxy.net/)
 
 ## FaQ
 
