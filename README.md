@@ -45,13 +45,14 @@
 
 - [Best choice](https://www.ozon.ru/seller/best-choice-244361/elektronika-15500/?miniapp=seller_244361) - [Ссылка на ноутбук](https://www.ozon.ru/product/xiaomi-16-noutbuk-redmi-redmi-book-pro16-2024-intel-core-ultra-5-125h-3-6-ggts-ram-32-gb-ssd-1024-1435692957/?asb=nSYjLnCEZr%252BDgDEO9AuM%252BRd%252Fqcp8Y%252Bdzp8pnK0bYYX0%253D), присылает не вскрытый, с пломбами
 - [Технофаны](https://www.ozon.ru/seller/tehnofany-1285368/elektronika-15500/?miniapp=seller_1285368) - [Ссылка на ноутбук](https://www.ozon.ru/product/xiaomi-redmi-book-pro-14-2024-intel-core-ultra-5-noutbuk-125h-2-8k-14-displey-c-besplatnyy-podarok-1432468957/?asb=F%252F8L6mC4W%252B%252B8QnyKWhHkfm26KVstG31xoJvldS9Hcfw%253D), присылает вскрытый для переустановки Windows на русскую
-- [Hizon](https://www.ozon.ru/seller/hizon-878210/ofisnaya-tehnika-15770/?miniapp=seller_878210) - Временно нет в магазине
+- [Hizon](https://www.ozon.ru/seller/hizon-878210/ofisnaya-tehnika-15770/?miniapp=seller_878210) - Временно нет в магазинеS
 
 ### Разное
 
-Страница с ПО на сайте Xiaomi 
- - Redmi Book Pro 14 2024 <https://www.mi.com/service/notebook/drivers/N57>
- - Redmi Book Pro 16 2024 <https://www.mi.com/service/notebook/drivers/N56>
+Страница с ПО на сайте Xiaomi
+
+- Redmi Book Pro 14 2024 <https://www.mi.com/service/notebook/drivers/N57>
+- Redmi Book Pro 16 2024 <https://www.mi.com/service/notebook/drivers/N56>
 
 Чтобы открыть нужно использовать VPN или [Croxy Proxy](https://www.croxyproxy.net/)
 
