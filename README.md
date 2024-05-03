@@ -49,7 +49,11 @@
 
 ### Разное
 
-Страница с ПО на сайте Xiaomi <https://www.mi.com/service/notebook/drivers/N56> - Чтобы открыть нужно использовать VPN или [Croxy Proxy](https://www.croxyproxy.net/)
+Страница с ПО на сайте Xiaomi 
+ - Redmi Book Pro 14 2024 <https://www.mi.com/service/notebook/drivers/N57>
+ - Redmi Book Pro 16 2024 <https://www.mi.com/service/notebook/drivers/N56>
+
+Чтобы открыть нужно использовать VPN или [Croxy Proxy](https://www.croxyproxy.net/)
 
 ## FaQ
 
