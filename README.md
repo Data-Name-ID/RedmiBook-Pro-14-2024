@@ -49,8 +49,8 @@
 
 #### Aliexpress
 
-- 🚀 [OLOEY PROJECTOR GLOBAL Store](https://aliexpress.ru/store/5375229) - [Ссылка на ноутбук](https://aliexpress.ru/item/1005006589940912.html)
-- 🚀 [Mi and Lenovo Laptop Store](https://aliexpress.ru/store/911207215) - [Ссылка на ноутбук](https://aliexpress.ru/item/1005006593831855.html)
+- 🚀 🔧 [OLOEY PROJECTOR GLOBAL Store](https://aliexpress.ru/store/5375229) - [Ссылка на ноутбук](https://aliexpress.ru/item/1005006589940912.html)
+- 🚀 🔧 [Mi and Lenovo Laptop Store](https://aliexpress.ru/store/911207215) - [Ссылка на ноутбук](https://aliexpress.ru/item/1005006593831855.html)
 
 #### Ozon
 
