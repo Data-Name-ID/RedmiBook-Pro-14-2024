@@ -231,7 +231,7 @@
 
 ### Лучшие параметры для микрофона
 
-В приложении [Realtek Audio Console](https://apps.microsoft.com/detail/9p2b8mcsvpln) в разделе **Набор микрофонов** выберете "Улучшенная стерео запись" или "Отключить всё".
+В приложении [Realtek Audio Console](https://apps.microsoft.com/detail/9p2b8mcsvpln) в разделе **Набор микрофонов** выберете "Отключить всё".
 
 ![Настройка микрофона](files/Настройка%20микрофона.png)
 
