@@ -126,8 +126,8 @@ Boot меню - `F12`
 
 ##### **Самые последне** драйверы
 
-- [Драйверы для видеоядра](https://www.intel.com/content/www/us/en/download/785597/intel-arc-iris-xe-graphics-windows.html).
-- Ручной поиск на [сайте Intel](https://www.intel.com/content/www/us/en/download-center/home.html) или их [утилита для установки драйверов](https://www.intel.com/content/www/us/en/support/detect.html).
+- [Драйверы для видеоядра](https://www.intel.com/content/www/us/en/download/785597/intel-arc-iris-xe-graphics-windows.html)
+- Ручной поиск на [сайте Intel](https://www.intel.com/content/www/us/en/download-center/home.html) или их [утилита для установки драйверов](https://www.intel.com/content/www/us/en/support/detect.html)
 - Xiaomi PC Manager 👇 (См. [Установка Xiaomi PC Manager](#установка-xiaomi-pc-manager))
 
 ![Драйверы в PC Manager](files/Драйверы%20в%20PC%20Manager.png)
