@@ -267,9 +267,9 @@ Google Chrome будет игнорировать цветовые профил�
 
 ### Подключение телефона под управлением HyperOS к ноутбуку
 
-Для подключения вам понадобится следующее:
+Для подключения вам понадобится:
 
-1. Наличие Xiaomi PC manager на ноутбуке ([Установка Xiaomi PC Manager](#установка-xiaomi-pc-manager))
+1. Xiaomi PC manager на ноутбуке ([Установка Xiaomi PC Manager](#установка-xiaomi-pc-manager))
 2. Телефон Xiaomi на базе HyperOS
-3. Установить/Обновить два apk: [HyperOS_Device-Interconnectivity-Services-Techmukul](files/HyperOS_Device-Interconnectivity-Services-Techmukul.apk) и [Interconnectivity-Services-Techmukul.apk](files/Interconnectivity-Services-Techmukul.apk)
-4. Далее требуется просто поднести телефон к NFC, расположенному в тачпаде, и принять подключение
+3. Установить/Обновить два приложения: [HyperOS Device Interconnectivity Services Techmukul](files/HyperOS_Device-Interconnectivity-Services-Techmukul.apk) и [Interconnectivity Services Techmukul](files/Interconnectivity-Services-Techmukul.apk)
+4. Теперь просто поднесите телефон к NFC, расположенному под тачпадом и примите подключение
