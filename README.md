@@ -271,5 +271,5 @@ Google Chrome будет игнорировать цветовые профил�
 
 1. Xiaomi PC manager на ноутбуке ([Установка Xiaomi PC Manager](#установка-xiaomi-pc-manager))
 2. Телефон Xiaomi на базе HyperOS
-3. Установить/Обновить два приложения: [HyperOS Device Interconnectivity Services Techmukul](files/HyperOS_Device-Interconnectivity-Services-Techmukul.apk) и [Interconnectivity Services Techmukul](files/Interconnectivity-Services-Techmukul.apk)
+3. Установить/Обновить два приложения: [HyperOS Device Interconnectivity Services Techmukul](https://github.com/Data-Name-ID/RedmiBook-Pro-14-2024/raw/main/files/HyperOS_Device-Interconnectivity-Services-Techmukul.apk) и [Interconnectivity Services Techmukul]([files/Interconnectivity-Services-Techmukul.apk](https://github.com/Data-Name-ID/RedmiBook-Pro-14-2024/raw/main/files/Interconnectivity-Services-Techmukul.apk)
 4. Теперь просто поднесите телефон к NFC, расположенному под тачпадом и примите подключение
