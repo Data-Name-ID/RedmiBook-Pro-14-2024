@@ -49,6 +49,7 @@
 🚀 Бесплатная доставка со склада в Москве, при выборе "Экспресс" доставки  
 ✨ Не вскрытая упаковка  
 🔧 Windows обновлена на русскую версию. При возможности, рекомендуется переустановка
+🇷🇺 Русская гравировка на клавиатуре
 
 #### Aliexpress
 
@@ -60,6 +61,7 @@
 - ✨ [Best choice](https://www.ozon.ru/seller/best-choice-244361/elektronika-15500/?miniapp=seller_244361) - [Ссылка на ноутбук](https://www.ozon.ru/product/xiaomi-16-noutbuk-redmi-redmi-book-pro16-2024-intel-core-ultra-5-125h-3-6-ggts-ram-32-gb-ssd-1024-1435692957/?asb=nSYjLnCEZr%252BDgDEO9AuM%252BRd%252Fqcp8Y%252Bdzp8pnK0bYYX0%253D)
 - 🔧 [Технофаны](https://www.ozon.ru/seller/tehnofany-1285368/elektronika-15500/?miniapp=seller_1285368) - [Ссылка на ноутбук](https://www.ozon.ru/product/xiaomi-redmi-book-pro-14-2024-intel-core-ultra-5-noutbuk-125h-2-8k-14-displey-c-besplatnyy-podarok-1432468957/?asb=F%252F8L6mC4W%252B%252B8QnyKWhHkfm26KVstG31xoJvldS9Hcfw%253D)
 - 🔧 [Hizon](https://www.ozon.ru/seller/hizon-878210/ofisnaya-tehnika-15770/?miniapp=seller_878210) - Временно нет в магазине
+- 🇷🇺🔧🚀 [TehNik](https://www.ozon.ru/seller/tehnik-1663615/) - [Ссылка на ноутбук](https://www.ozon.ru/product/xiaomi-redmibook-pro-16-2024-noutbuk-16-intel-core-ultra-7-155h-ram-32-gb-ssd-1000-gb-intel-1604717636/). Доставка со склада в Москве. Есть возможность заказать конфигурацию с 2TB SDD (SSD ставится продавцом)
 
 ### Разное
 
