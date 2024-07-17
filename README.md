@@ -241,11 +241,11 @@ Boot меню - `F12`
 
 **Установка**: [Скачиваем архив с GitHub](https://github.com/localdotcom/xiaomi-pc-manager-smart-charge-fix/zipball/main/) и распаковываем в удобное место туда, где он будет находиться постоянно. Жмем правой кнопкой по init.ps1 и выбираем пункт `Выполнить с PowerShell` или жмем shift+правая кнопка мыши по свободному месту в папке, и выбираем пункт `Открыть окно PowerShell здесь`, выполняем команду
 
-[**Репозиторий фикса**](https://github.com/localdotcom/xiaomi-pc-manager-smart-charge-fix)
-
 ```bash
 Start-Process -FilePath "init.ps1"
 ```
+
+[**Репозиторий фикса**](https://github.com/localdotcom/xiaomi-pc-manager-smart-charge-fix)
 
 ### Цветовые профили
 
