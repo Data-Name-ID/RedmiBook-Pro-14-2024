@@ -247,6 +247,19 @@ Start-Process -FilePath "init.ps1"
 
 [**Репозиторий фикса**](https://github.com/localdotcom/xiaomi-pc-manager-smart-charge-fix)
 
+В случае, если скрипт не исполняется должным образом или не дает результата, проверьте разрешения на исполнение скриптов power shell командой (выполнять тоже в power shell в режиме администратора)
+
+```Get-ExecutionPolicy```
+
+Для разрешения запуска скриптов используйте команду
+
+```Set-ExecutionPolicy RemoteSigned –Force```
+
+Подробности можно посмотреть [по ссылке]([url](https://winitpro.ru/index.php/2020/06/03/powershell-execution-policy-zapusk-scriptov/)).
+
+
+
+
 ### Цветовые профили
 
 Google Chrome будет игнорировать цветовые профили, чтобы отключить такое поведение:
