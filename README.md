@@ -245,20 +245,21 @@ Boot меню - `F12`
 Start-Process -FilePath "init.ps1"
 ```
 
-[**Репозиторий фикса**](https://github.com/localdotcom/xiaomi-pc-manager-smart-charge-fix)
+В случае, если скрипт не исполняется должным образом, проверьте разрешения на исполнение скриптов `PowerShell` командой (выполнять тоже в `PowerShell` в режиме администратора)
 
-В случае, если скрипт не исполняется должным образом или не дает результата, проверьте разрешения на исполнение скриптов power shell командой (выполнять тоже в power shell в режиме администратора)
-
-```Get-ExecutionPolicy```
+```bash
+Get-ExecutionPolicy
+```
 
 Для разрешения запуска скриптов используйте команду
 
-```Set-ExecutionPolicy RemoteSigned –Force```
+```bash
+Set-ExecutionPolicy RemoteSigned –Force
+```
 
 Подробности можно посмотреть [по ссылке]([url](https://winitpro.ru/index.php/2020/06/03/powershell-execution-policy-zapusk-scriptov/)).
 
-
-
+[**Репозиторий фикса**](https://github.com/localdotcom/xiaomi-pc-manager-smart-charge-fix)
 
 ### Цветовые профили
 
