@@ -176,7 +176,14 @@ When installing Windows, delete all partitions on the disk.
   ```bash
   options i915 enable_fbc=1 enable_guc=3 disable_power_well=0
   ```
+
+  ##### To use the built-in speakers and microphone when kernel >= 6.10 is installed.
+  - Install the latest version of topology https://github.com/thesofproject/sof-bin/releases
+  - Install alsa-firmware package https://packages.fedoraproject.org/pkgs/alsa-firmware/alsa-firmware/ and its dependencies
+  - Remove the file/etc/modprobe.d/sound-fix.conf if you have used this fix before.
   
+  Tested on Fedora 40, kernel 6.10.4
+
 #### Not Working on Linux
 
 - Microphone (likely need to patch the ACPI table, wait for updates)

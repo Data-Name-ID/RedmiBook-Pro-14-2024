@@ -177,6 +177,13 @@ Boot меню - `F12`
   ```bash
   options i915 enable_fbc=1 enable_guc=3 disable_power_well=0
   ```
+
+  ##### Для работы встроенных динамиков и микрофона  при установленом  ядре >= 6.10
+  - Установить последнию версию топологии https://github.com/thesofproject/sof-bin/releases
+  - Установить пакет alsa-firmware https://packages.fedoraproject.org/pkgs/alsa-firmware/alsa-firmware/
+  - Убрать файл/etc/modprobe.d/sound-fix.conf , если использовали этот фикс ранее.
+  
+  Проверно на Fedora 40, kernel 6.10.4
   
 #### Не работает на Linux
 
