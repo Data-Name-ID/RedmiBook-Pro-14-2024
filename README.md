@@ -510,7 +510,7 @@ Boot меню - `F12`
 
   - Для остальных
     - Удалите фикс `/etc/modprobe.d/sound-fix.conf`, если использовали его ранее
-    - Установите последнию версию топологии [sof-bin](https://github.com/thesofproject/sof-bin/releases)
+    - Установите последнюю версию топологии [sof-bin](https://github.com/thesofproject/sof-bin/releases)
     - Установите пакет [alsa-firmware](https://github.com/alsa-project/alsa-firmware)
 
 - Добавьте в `/etc/modprobe.d/i915.conf` для правильной настройки iGPU (графики Arc)
