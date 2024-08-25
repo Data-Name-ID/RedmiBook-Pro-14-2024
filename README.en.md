@@ -157,26 +157,26 @@ When installing Windows, delete all partitions on the disk.
 
 ### Installing Linux
 
-❗Use distributions with a kernel version no lower than 6.9.6, otherwise, only 21 out of 22 threads will be visible
+❗Use distributions with kernel version >= 6.10.
 
-- To get sound working, add to `/etc/modprobe.d/sound-fix.conf`
+- For built-in speakers and microphone to work
+  - For Arch-based distributions:
 
-  ```bash
-  options snd-intel-dspcfg dsp_driver=1
-  ```
-  
-  And optionally:
+    ```bash
+    sudo pacman -S alsa-firmware sof-firmwares
+    ```
 
-  ```bash
-  options snd-hda-intel power_save=1
-  ```
+  - For others:
+    - Remove the fix /etc/modprobe.d/sound-fix.conf if you used it earlier
+    - Install the latest version of the topology from [sof-bin](https://github.com/thesofproject/sof-bin/releases)
+    - Install the package [alsa-firmware](https://github.com/alsa-project/alsa-firmware)
 
-- Also, it would be better to add parameters to `/etc/modprobe.d/i915.conf` for proper iGPU (Arc graphics) setup
+- Add to /etc/modprobe.d/i915.conf for proper iGPU (Arc graphics) configuration:
 
   ```bash
   options i915 enable_fbc=1 enable_guc=3 disable_power_well=0
   ```
-  
+
 #### Not Working on Linux
 
 - Microphone (likely need to patch the ACPI table, wait for updates)
