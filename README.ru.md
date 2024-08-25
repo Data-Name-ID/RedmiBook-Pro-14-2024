@@ -158,32 +158,25 @@ Boot меню - `F12`
 
 ### Установка Linux
 
-❗Используйте дистрибутивы с версией ядра не ниже 6.9.6, иначе будет видеть только 21 поток из 22
+❗Используйте дистрибутивы с версией ядра >= `6.10`
 
-- Для того, что бы заработал звук, надо добавить в `/etc/modprobe.d/sound-fix.conf`
+- Для работы встроенных динамиков и микрофона
+  - Для Arch-подобных дистрибутивов
 
-  ```bash
-  options snd-intel-dspcfg dsp_driver=1
-  ```
-  
-  И, опционально:
+    ```bash
+    sudo pacman -S alsa-firmware sof-firmwares
+    ```
 
-  ```bash
-  options snd-hda-intel power_save=1
-  ```
+  - Для остальных
+    - Удалите фикс `/etc/modprobe.d/sound-fix.conf`, если использовали его ранее
+    - Установите последнию версию топологии [sof-bin](https://github.com/thesofproject/sof-bin/releases)
+    - Установите пакет [alsa-firmware](https://github.com/alsa-project/alsa-firmware)
 
-- Также будет лучше добавить параметры в `/etc/modprobe.d/i915.conf` для правильной настройки iGPU (графики Arc)
+- Добавьте в `/etc/modprobe.d/i915.conf` для правильной настройки iGPU (графики Arc)
 
   ```bash
   options i915 enable_fbc=1 enable_guc=3 disable_power_well=0
   ```
-
-  ##### Для работы встроенных динамиков и микрофона  при установленом  ядре >= 6.10
-  - Установить последнию версию топологии https://github.com/thesofproject/sof-bin/releases
-  - Установить пакет alsa-firmware https://packages.fedoraproject.org/pkgs/alsa-firmware/alsa-firmware/
-  - Убрать файл/etc/modprobe.d/sound-fix.conf , если использовали этот фикс ранее.
-  
-  Проверно на Fedora 40, kernel 6.10.4
   
 #### Не работает на Linux
 
