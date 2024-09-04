@@ -208,7 +208,7 @@ When installing Windows, delete all partitions on the disk.
   - For Arch-based distributions:
 
     ```bash
-    sudo pacman -S alsa-firmware sof-firmwares
+    sudo pacman -S alsa-firmware sof-firmware
     ```
 
   - For others:
@@ -505,7 +505,7 @@ Boot меню - `F12`
   - Для Arch-подобных дистрибутивов
 
     ```bash
-    sudo pacman -S alsa-firmware sof-firmwares
+    sudo pacman -S alsa-firmware sof-firmware
     ```
 
   - Для остальных
