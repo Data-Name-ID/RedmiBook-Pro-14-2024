@@ -205,6 +205,7 @@ When installing Windows, delete all partitions on the disk.
 ❗Use distributions with kernel version >= 6.10.
 
 - For built-in speakers and microphone to work
+  - Remove the fix `/etc/modprobe.d/sound-fix.conf` if you used it earlier
   - For Arch-based distributions:
 
     ```bash
@@ -212,7 +213,6 @@ When installing Windows, delete all partitions on the disk.
     ```
 
   - For others:
-    - Remove the fix /etc/modprobe.d/sound-fix.conf if you used it earlier
     - Install the latest version of the topology from [sof-bin](https://github.com/thesofproject/sof-bin/releases)
     - Install the package [alsa-firmware](https://github.com/alsa-project/alsa-firmware)
 
@@ -224,7 +224,7 @@ When installing Windows, delete all partitions on the disk.
 
 #### Not Working on Linux
 
-- Microphone (likely need to patch the ACPI table, wait for updates)
+- ~~Microphone (likely need to patch the ACPI table, wait for updates)~~
 - Hotkeys on F7, F8, F9 buttons and the PC Manager button in the top right corner (ACPI receives events about their presses, however, they are identical for all buttons)
 
 ### Installing Office
@@ -502,6 +502,7 @@ Boot меню - `F12`
 ❗Используйте дистрибутивы с версией ядра >= `6.10`
 
 - Для работы встроенных динамиков и микрофона
+  - Удалите фикс `/etc/modprobe.d/sound-fix.conf`, если использовали его ранее
   - Для Arch-подобных дистрибутивов
 
     ```bash
@@ -509,7 +510,6 @@ Boot меню - `F12`
     ```
 
   - Для остальных
-    - Удалите фикс `/etc/modprobe.d/sound-fix.conf`, если использовали его ранее
     - Установите последнюю версию топологии [sof-bin](https://github.com/thesofproject/sof-bin/releases)
     - Установите пакет [alsa-firmware](https://github.com/alsa-project/alsa-firmware)
 
@@ -521,7 +521,7 @@ Boot меню - `F12`
   
 #### Не работает на Linux
 
-- Микрофон (скорее всего надо патчить ACPI таблицу, ждите обновлений)
+- ~~Микрофон (скорее всего надо патчить ACPI таблицу, ждите обновлений)~~
 - Горячие клавиши на кнопках F7, F8, F9 и кнопка PC Manager в правом верхнем углу (ACPI получает события о их нажатии, однако они одинаковые для всех кнопок)
 
 ### Установка Office
